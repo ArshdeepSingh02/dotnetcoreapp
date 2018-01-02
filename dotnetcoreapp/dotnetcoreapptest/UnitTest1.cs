@@ -7,10 +7,9 @@ namespace dotnetcoreapptest
     public class UnitTest1
     {
         [TestMethod]
-        public bool IsOneOne()
+        public void TestMethod1()
         {
-            if (1 == 1)
-                return true;
+            Assert.IsTrue(true, "test passed");
         }
     }
 }
