@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.15
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnetcoreapp", "dotnetcoreapp\dotnetcoreapp.csproj", "{EF5BA11E-065C-40BB-A80C-35042853F102}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dotnetcoreapp", "dotnetcoreapp\dotnetcoreapp.csproj", "{EF5BA11E-065C-40BB-A80C-35042853F102}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnetcoreapptest", "dotnetcoreapptest\dotnetcoreapptest.csproj", "{A881EF68-C54D-4AE9-A654-5A7CBE8828AA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{EF5BA11E-065C-40BB-A80C-35042853F102}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF5BA11E-065C-40BB-A80C-35042853F102}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF5BA11E-065C-40BB-A80C-35042853F102}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A881EF68-C54D-4AE9-A654-5A7CBE8828AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A881EF68-C54D-4AE9-A654-5A7CBE8828AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A881EF68-C54D-4AE9-A654-5A7CBE8828AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A881EF68-C54D-4AE9-A654-5A7CBE8828AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
