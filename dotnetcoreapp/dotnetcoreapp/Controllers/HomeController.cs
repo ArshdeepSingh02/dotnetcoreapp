@@ -31,5 +31,15 @@ namespace dotnetcoreapp.Controllers
         {
             return View();
         }
+        
+         public bool CheckAvailability(int i)
+        {
+            if (i % 2 == 0)
+            {
+                return true;
+            }
+            else
+            { return false; }
+        }
     }
 }
