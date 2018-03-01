@@ -1,5 +1,6 @@
 using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using dotnetcoreapp.Controllers;
 
 namespace dotnetcoreapptest
 {
@@ -9,7 +10,9 @@ namespace dotnetcoreapptest
         [TestMethod]
         public void TestMethod1()
         {
-            Assert.IsTrue(true, "test passed");
+             HomeController controller = new HomeController();
+            bool bsuccess = controller.CheckAvailability(2);
+            Assert.IsTrue(bsuccess, "test passed"); 
         }
     }
 }
